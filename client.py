@@ -17,19 +17,19 @@ if __name__ == "__main__":
     url = "http://127.0.0.1:8000/start_pipeline/"
     payload = {
         "leads": [
-            {
+                {
                 "lead_data": {
-                    "name": "João Moura",
-                    "job_title": "Director of Engineering",
-                    "company": "Clearbit",
-                    "email": "joao@clearbit.com",
-                    "use_case": "Using AI Agent to do better data enrichment."
+                    "name": "Wile E. Coyote",
+                    "job_title": "Genius",
+                    "company": "Self-employed",
+                    "email": "wile_coyote@gmail.com",
+                    "use_case": "Using AI to fetch Road Runner."
                 },
                 "our_data": {
-                    "company_name": "GMV",
-                    "product": "AI Solutions",
+                    "company_name": "Acme Corporation",
+                    "product": "The company manufactures outlandish products that fail or backfire catastrophically at the worst possible times",
                     "icp": "Enterprise companies.",
-                    "pitch": "AI for smarter decision making."
+                    "pitch": "American Company that Manufactures Everything."
                 }
             }
         ]
