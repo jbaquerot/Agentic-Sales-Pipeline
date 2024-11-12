@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pydantic
+crewai==0.75
+crewai_tools==0.12.1
+pyyaml
