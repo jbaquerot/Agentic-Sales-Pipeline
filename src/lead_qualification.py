@@ -16,14 +16,6 @@ from src import email_engagement
 logger = logging.getLogger(__name__)
 
 
-# Models
-class Lead(BaseModel):
-    lead_data: Dict
-    our_data: Dict
-
-class LeadsRequest(BaseModel):
-    leads: List[Lead]
-
 # Flow
 class SalesPipeline(Flow):
     def __init__(self, leads):
@@ -43,7 +35,7 @@ class SalesPipeline(Flow):
 
     @listen(score_leads)
     def filter_leads(self, scores):
-        return [score for score in scores if score['lead_score'].score > 70]
+        return [score for score in scores if score['lead_score'].score > 0]
 
     @listen(filter_leads)
     def write_email(self, leads):

@@ -1,6 +1,5 @@
 # src/email_engagement.py
 import logging
-from pydantic import BaseModel, Field
 from typing import List, Dict
 from errors import KickoffError, ValidationError
 from crewai import Agent, Task, Crew

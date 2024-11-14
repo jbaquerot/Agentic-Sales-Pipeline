@@ -8,12 +8,7 @@ email_drafting:
     keep it short and to the point.
     Don't use any salutations or closing remarks, nor too complex sentences.
 
-    Our Company and Product:
-    - Company Name: CrewAI
-    - Product: Multi-Agent Orchestration Platform
-    - ICP: Enterprise companies looking into Agentic automation.
-    - Pitch: We are a platform that allows you to orchestrate AI Agents for
-    automations to any vertical.
+    Our Company and Product: {our_data}
 
     Use the following information:
     Personal Info: {personal_info}

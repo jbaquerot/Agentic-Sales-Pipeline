@@ -18,7 +18,7 @@ async def main():
             "our_data": {
                 "company_name": "Acme Corporation",
                 "product": "The company manufactures outlandish products that fail or backfire catastrophically at the worst possible times",
-                "icp": "Enterprise companies.",
+                "icp": "Self-employed",
                 "pitch": "American Company that Manufactures Everything."
             }
         }

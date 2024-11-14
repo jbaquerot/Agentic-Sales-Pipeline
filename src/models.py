@@ -23,6 +23,7 @@ class LeadScoringResult(BaseModel):
     personal_info: LeadPersonalInfo = Field(..., description="Personal information about the lead.")
     company_info: CompanyInfo = Field(..., description="Information about the lead's company.")
     lead_score: LeadScore = Field(..., description="The calculated score and related information for the lead.")
+    our_data: CompanyInfo = Field(..., description="Information about our company.")
 
 class Lead(BaseModel):
     lead_data: Dict
